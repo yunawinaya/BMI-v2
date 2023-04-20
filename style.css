@@ -6,8 +6,16 @@ body {
   text-align: center;
 }
 
-p {
-  width: 350px;
+label {
+  font-size: 16px;
+}
+
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
 }
 
 button {
@@ -20,4 +28,8 @@ button {
   font-size: 16px;
   border-radius: 30px;
   cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
 }

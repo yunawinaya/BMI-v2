@@ -13,8 +13,20 @@
     BMI Calculator
   </h2>
   <img src="avocado-exercise.png" alt="" height="200">
-  <p>*Prompt dialog will appear to ask for your height(in metres) and weight(in kg).*</p>
-  <button onclick="calculateBMI()">Get Started!</button>
+  <form>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName">
+    <br>
+    <label for="height">Height (m):</label>
+    <input type="number" id="height">
+    <br>
+    <label for="weight">Weight (kg):</label>
+    <input type="number" id="weight">
+    <br>
+    <br>
+  </form>
+  <button onclick="calculateBMI()">Calculate BMI</button>
+  <p id="result"></p>
   <script src="script.js"></script>
 </body>
 
